@@ -10,17 +10,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <style>
 
+        #selected {
+            background: orange;
+        }
+
+        /*Class Selector*/
+        .optionOne {
+            color: green;
+            font-size: 50px;
+        }
+
+        .optionTwo {
+            color: red;
+            font-size: 100px;
+        }
 
     </style>
 </head>
 <body>
 
-<h1>GREEN,Font-SIZE=50</h1>
-<h1>RED,Font-SIZE=100</h1>
-<h1>GREEN,Font-SIZE=50,Back:Orange</h1>
-<h1>RED,Font-SIZE=100</h1>
-<h1>GREEN,Font-SIZE=50</h1>
-<h1>RED,Font-SIZE=100</h1>
+<h1 class="optionOne">GREEN,Font-SIZE=50</h1>
+<h1 class="optionTwo">RED,Font-SIZE=100</h1>
+<h1 class="optionOne" id="selected">GREEN,Font-SIZE=50,Back:Orange</h1>
+<h1 class="optionTwo">RED,Font-SIZE=100</h1>
+<h1 class="optionOne">GREEN,Font-SIZE=50</h1>
+<h1 class="optionTwo">RED,Font-SIZE=100</h1>
 
 </body>
 </html>
