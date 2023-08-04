@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/O2_Selectors.iml" filepath="$PROJECT_DIR$/O2_Selectors.iml" />
       <module fileurl="file://$PROJECT_DIR$/O3_Combinators/O3_Combinators.iml" filepath="$PROJECT_DIR$/O3_Combinators/O3_Combinators.iml" />
       <module fileurl="file://$PROJECT_DIR$/O4_Traversing.iml" filepath="$PROJECT_DIR$/O4_Traversing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/O5_Cascade.iml" filepath="$PROJECT_DIR$/O5_Cascade.iml" />
     </modules>
   </component>
 </project>
