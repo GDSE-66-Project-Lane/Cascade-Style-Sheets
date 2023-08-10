@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <title>Cascade</title>
     <style>
-        #h1ID{
-            color: deeppink;
-        }
 
         *{
             color: black;
@@ -15,16 +12,20 @@
             color: blue;
         }
 
+        .h1Class{
+            color: orange;
+        }
+
+        [id]{
+            color: brown!important;
+        }
+
         :first-child{
             color: green;
         }
 
-        [id]{
-            color: brown;
-        }
-
-        .h1Class{
-            color: orange;
+        #h1ID{
+            color: deeppink;
         }
 
     </style>
@@ -34,6 +35,13 @@
 <h1 id="h1ID" class="h1Class" style="color:red;">So What is Cascade.?</h1>
 
 
+<!--01. red-->
+<!--02. deeppink-->
+<!--03. green-->
+<!--04. Brown-->
+<!--05. Orange-->
+<!--06. Blue-->
+<!--07. Black-->
 
 </body>
 </html>
