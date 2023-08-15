@@ -5,6 +5,7 @@
     <title>CSS Positions_ Default Positions & Relative Position</title>
     <meta name="viewport" content="width=device-width initial-scale=1">
     <style>
+
         div {
             width: 100px;
             height: 100px;
@@ -15,8 +16,15 @@
         img{
             width: 200px;
         }
+
+        /*body>img:first-child{*/
+        /*    !*so while it's in static position you can't use this*!*/
+        /*    top: 50px;*/
+        /*}*/
+
         body>img:first-child{
             position: relative;
+            /*this will from top whithout affecting the current flow*/
             top: 50px;
         }
 
