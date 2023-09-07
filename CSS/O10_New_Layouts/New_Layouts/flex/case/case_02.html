@@ -13,19 +13,28 @@
 
         section:nth-child(1) > div {
             height: 100px;
+            width: 100px;
             border: 2px solid red;
+            flex-shrink: 0; /*(default 1 - on)*/
+            /*(default 0 - off)*/
+            flex-basis: 200px;
 
+        /*if shrink is off then flex items
+        can overflow the container width*/
         }
 
         section:nth-child(1) > div:nth-child(1){
-            flex-grow: 1;
+            /*flex-grow: 1;*/
+            order: 2;
         }
 
         section:nth-child(1) > div:nth-child(2){
-            flex-grow: 2;
+            /*flex-grow: 2;*/
+            order: 1;
         }
         section:nth-child(1) > div:nth-child(3){
-            flex-grow: 1;
+            /*flex-grow: 1;*/
+            order: 3;
         }
     /*    */
 
@@ -39,21 +48,9 @@
 </head>
 <body>
 <section>
-    <div></div>
-    <div></div>
-    <div></div>
-</section>
-
-<section>
-    <div></div>
-    <div></div>
-    <div></div>
-</section>
-
-<section>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
 </section>
 </body>
 </html>
