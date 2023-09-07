@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Stack Order</title>
-    <!--    If you work with z-index for stacking making sure to have non-static position
+    <!--If you work with z-index for stacking making sure to have non-static position
     otherwise it won't work-->
     <style>
         div {
@@ -14,21 +14,20 @@
         div:nth-child(1) {
             background: red;
             position: relative;
-            top: 100px;
-            z-index: 10; /*this will be on the top of all because it has the highest number*/
+            top: 10px;
+
         }
 
         div:nth-child(2) {
             background: green;
-            position: relative;
-            z-index: 9;
+
+
         }
 
         div:nth-child(3) {
             background: orange;
-            bottom: 100px;
-            position: relative;
-            z-index: 8;
+
+
         }
     </style>
 </head>
