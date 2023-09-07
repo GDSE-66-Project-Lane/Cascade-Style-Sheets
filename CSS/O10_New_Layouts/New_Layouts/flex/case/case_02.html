@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case 02</title>
+    <style>
+        section:nth-child(1) {
+            width: 800px;
+            height: 300px;
+            border: 2px solid black;
+            display: flex;
+        }
+
+        section:nth-child(1) > div {
+            height: 100px;
+            border: 2px solid red;
+
+        }
+
+        section:nth-child(1) > div:nth-child(1){
+            flex-grow: 1;
+        }
+
+        section:nth-child(1) > div:nth-child(2){
+            flex-grow: 2;
+        }
+        section:nth-child(1) > div:nth-child(3){
+            flex-grow: 1;
+        }
+    /*    */
+
+
+
+    /*    Include in Flex Items*/
+    /*    Flex- Grow (Grow factor)*/
+    /*    Flex- Shrink (Akulana factor)*/
+    /*    Flex- Basis (Width factor)*/
+    </style>
+</head>
+<body>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+</body>
+</html>
