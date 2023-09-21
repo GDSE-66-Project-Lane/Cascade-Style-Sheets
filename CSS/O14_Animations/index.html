@@ -10,10 +10,10 @@
             animation-name: anima;
 
             /*Animation duration*/
-            animation-duration: 10s;
+            animation-duration: 5s;
 
             /*How many times animations should run*/
-            animation-iteration-count: 2;
+            animation-iteration-count: 1;
             /*if you want to run without stop*/
             /*animation-iteration-count: infinite;*/
 
@@ -31,7 +31,17 @@
 
 
             /*will wait 2s before starting the animation*/
-            animation-delay: 2s;
+            animation-delay: 10s;
+
+            /*before start the animation first frame will be added*/
+            /*animation-fill-mode: backwards;*/
+
+            /*at the end of the animation last frame will be added*/
+            /*animation-fill-mode: forwards;*/
+
+            /*before starting the animation the first frame will
+            be added and then at the end of the animation last frame will be added*/
+            animation-fill-mode: both;
 
 
             position: relative;
